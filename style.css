@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container {
+    width: 33%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: greenyellow;
+    text-align: center;
+    margin-top: 10vh;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    margin-bottom: 1.5rem;
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 60%;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: teal;
+    color: white;
+}
+
+#change-due, #cash-in-drawer {
+    margin-bottom: 1.5rem;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 500px) {
+    #container {
+        width: 90%;
+        margin-top: 15vh;
+    }
+}
